@@ -1,0 +1,156 @@
+/* .title{
+    font-size: 35px;
+    color: rgb(108, 122 , 91, 0.5);
+    
+}
+
+.hello{
+    background-image: url(1.jpeg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border: 2px dotted tomato;
+    border-bottom-right-radius: 12px;
+    
+}
+
+button{
+    background-color: turquoise;
+    color: midnightblue;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    cursor:pointer;
+} */
+
+/* table{
+   
+    visibility: visible;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.hello{
+    font-size: 24px;
+    text-shadow:1px 1px 2px red;
+}
+
+p:hover{
+    color: lawngreen;
+}
+
+.demo{
+    width: 600px;
+    height: 150px;
+    background: #009688;
+    margin: 100px auto;
+}
+
+.inner-demo{
+    width: 200px;
+    height: 100px;
+    background: red;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .demo{
+    width: 600px;
+    height: 150px;
+    background: #009688;
+    margin: 100px auto;
+    position: relative;
+} */
+
+/* .demo::after{
+    content: 'hello';
+    width: 100px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.demo::before{
+    content: '';
+    width: 100px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+} */
+
+.demo{
+    width: 700px;
+    height: 700px;
+    background: #009688;
+    margin: 50px auto;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    /* transition: 1s; */
+}
+
+.inner-demo{
+    width: 150px;
+    height: 150px;
+   background: red;
+    font-size: 24px;
+    color: #fff;
+    animation: motion 5s linear infinite;
+    
+}
+
+@keyframes motion{
+    100%{
+        transform: translateY(200px);
+    }
+}
+
+/* .inner-demo:hover{
+    background: purple;
+} */
+
+/* .inner-demo:nth-child(1){
+    background: red;
+}
+
+.inner-demo:nth-child(2){
+    background: orange;
+    
+}
+
+.inner-demo:nth-child(3){
+    background: lightgreen;
+}
+
+.inner-demo:nth-child(4){
+    background: purple;
+}
+
+.inner-demo:nth-child(5){
+    background: red;
+}
+
+.inner-demo:nth-child(6){
+    background: orange;
+    
+}
+
+.inner-demo:nth-child(7){
+    background: lightgreen;
+}
+
+.inner-demo:nth-child(8){
+    background: purple;
+} */
